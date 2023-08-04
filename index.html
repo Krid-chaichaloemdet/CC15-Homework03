@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .nav-header {
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px;
+            font-size: 30px;
+            gap: 50px;
+        }
+
+        .container-head {
+            width: 100%;
+            height: 30%;
+            /* background-color: rgb(237, 233, 240); */
+            display: flex;
+            padding: 0px;
+        }
+        .container-head-content {
+            width: 70%;
+            height: 100%;
+            /* background-color: aqua; */
+        }
+        .container-head-content > div {
+            padding: 50px;
+        }
+        .container-head-content-pic{
+            /* width: 50%; */
+            height: 50%;
+            /* background-color: bisque; */
+        }
+        .pic1 {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            margin-top: 100px;
+        }
+        .button-head {
+            background-color: rgb(235, 99, 99);
+            border-radius: 20px;
+            font-size: larger;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .container-middle {
+            /* background-color: rgb(215, 215, 227); */
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: c;
+        }
+        .div-middle-link1 {
+            width: 100%;
+            height: 200px;
+            /* background-color: rgb(208, 185, 197); */
+            display: flex;
+            /* border: solid 2px; */
+            justify-content: space-around;
+            padding: 10px;
+        }
+        .div-middle-link2 {
+            width: 50%;
+            background-color: blanchedalmond;
+        }
+        .div-middle-link1 > nav {
+            padding: 20px;
+        }
+          
+        
+        .div-middle-link > nav {
+            font-size: larger;
+            display: flex;
+            background-color: antiquewhite;
+            width: 100%;
+            border: solid;
+           
+        }
+        .nav-middle {
+            display: flex;
+        }
+        .nav-middle1 > a {
+            padding: 10px;
+
+        }
+        .nav-middle2 > a  {
+            padding: 10px;
+            /* margin-left: 80%; */
+            align-items: flex-end;
+        }
+        a { 
+            text-decoration: none;
+        }
+        .container-bottom {
+            padding: 10px;
+        }
+        .container-bottom > div{
+            display: flex;
+            height: 30%;
+            width: 100%;
+            /* background-color: bisque; */
+            justify-content: start;
+            /* border: solid 1px; */
+            flex-direction: row;
+            padding: px;
+        }
+        .pic11 {
+            height: 100px;
+            width: 150px;
+            pad: 10px;
+        }
+        .pic12 {
+            height: 100px;
+            width: 150px;
+            pad: 10px;
+        }
+        .pic13 {
+            height: 100px;
+            width: 150px;
+            pad: 10px;
+        }
+        .content-bottom1 {
+            padding: 10px;
+        }
+        .nav-bottom {
+            margin-left: 20px;
+        }
+        .icon1 {
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            color: aquamarine;
+        }
+        .lastbottom {
+            display: flex;
+              justify-content: center;
+        }
+
+           
+            
+            
+        </style>
+</head>
+<body>
+    <nav class="nav-header">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="work.html">Works</a>
+        <a href="index.html">Contact</a>
+    </nav>
+    <div class="container-head">
+        <div class="container-head-content">
+            <div><h1>Hi, I am Krid, <br>I am Stupid</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat est, ipsa fugiat commodi officiis cupiditate voluptates quam expedita quod harum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat est, ipsa fugiat commodi officiis cupiditate voluptates quam expedita quod harum.</p>
+                <div>
+                    <button class="button-head">Download Resume</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-head-pic"> <img class="pic1" src="proflie.png" alt=""></div>
+    </div>
+    <div class="container-middle">
+        <div class="div-middle-link1">
+            <nav class="nav-middle1">
+                <a href="">Recent posts</a>
+                <a href=""><h2>Making a design system from scratch</h2> </a>
+                <p>12 March 2022...</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis rem, ab sed minus totam neque iste possimus ratione in incidunt unde sapiente consectetur porro excepturi quam dolore dolor aut tempora et, facere voluptas maxime. Esse, suscipit nobis? Sed unde alias at possimus a, ducimus hic nesciunt dignissimos eum qui repudiandae.</p>
+            </nav>
+            <nav class="nav-middle2">
+                <a href="">View all</a>
+                <a href=""><h2>Creating pixel perfect icons in Figma</h2> </a>
+                <p>12 March 2022...</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis rem, ab sed minus totam neque iste possimus ratione in incidunt unde sapiente consectetur porro excepturi quam dolore dolor aut tempora et, facere voluptas maxime. Esse, suscipit nobis? Sed unde alias at possimus a, ducimus hic nesciunt dignissimos eum qui repudiandae.</p>
+            </nav>
+        
+        </div>
+    </div>
+    
+    <nav class="nav-bottom"> <nav> <a href="">Featues works</a> </nav>
+    <div class="container-bottom">
+        <div>
+            <div> <img class="pic11" src="pic1.jpg" alt=""></div>
+            <div>
+                <div  class="content-bottom1"><h2> <a href="">Designing Dashboards</a> </h2>
+                    <div>2020</div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint mollitia quo incidunt dolorum natus consequatur iste, unde libero quia sapiente?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint mollitia quo incidunt dolorum natus consequatur iste, unde libero quia sapiente?</p>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div class="container-bottom">
+        <div>
+            <div> <img class="pic12" src="pic2.jpg" alt=""></div>
+            <div>
+                <div  class="content-bottom1"><h2> <a href="">Designing Dashboards</a> </h2>
+                    <div>2020</div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint mollitia quo incidunt dolorum natus consequatur iste, unde libero quia sapiente?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint mollitia quo incidunt dolorum natus consequatur iste, unde libero quia sapiente?</p>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div class="container-bottom">
+        <div>
+            <div> <img class="pic13" src="pic3.jpg" alt=""></div>
+            <div>
+                <div  class="content-bottom1"><h2> <a href="">Designing Dashboards</a> </h2>
+                    <div>2020</div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint mollitia quo incidunt dolorum natus consequatur iste, unde libero quia sapiente?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint mollitia quo incidunt dolorum natus consequatur iste, unde libero quia sapiente?</p>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <div class="icon1">   
+        <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+        <br>
+    </div>
+    <div class="lastbottom">
+        Copyright 2023 All rights reserved
+    </div>
+        
+   
+        
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+</body>
+</html>
